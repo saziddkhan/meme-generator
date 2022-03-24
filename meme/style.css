@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(17, 15, 12);
+    
+}
+img {
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+
+  }
+  button {
+    cursor: pointer;
+    background: #ad1414;
+    color: white;
+    border-radius: 7px;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    padding: 10px 40px;
+    z-index: 900;
+  }
